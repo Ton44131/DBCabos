@@ -4,8 +4,10 @@ USE DBcabos
 
 CREATE TABLE cliente (
 	id_cliente INT,
-	ewerton_viado VARCHAR (69),
-	ewerton_da_a_bunda INT
+        id_cliente INT,
+	nome_cliente VARCHAR(100),
+	id_cidade INT
+	nome_cidade VARCHAR(60) 
 
 
 
