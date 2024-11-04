@@ -7,10 +7,61 @@ CREATE TABLE cliente (
 	nome_cliente VARCHAR(100),
 	id_cidade INT
 	nome_cidade VARCHAR(60) 
-
-
-
 )
+INSERT INTO Clientes (id_cliente, nome_cliente, id_cidade, nome_cidade) VALUES
+    (1, 'Shikamaru Nara', 1, 'São Paulo'),
+    (2, 'Choji Akimichi', 2, 'Guarulhos'),
+    (3, 'Ino Yamanaka', 3, 'Santo Amaro'),
+    (4, 'Hinata Hyuga', 4, 'Curitiba'),
+    (5, 'Kiba Inuzuka', 5, 'Londrina'),
+    (6, 'Tenten', 6, 'Maringá'),
+    (7, 'Neji Hyuga', 7, 'Joinville'),
+    (8, 'Rock Lee', 8, 'Canoas'),
+    (9, 'Gaara', 9, 'Gramado'),
+    (10, 'Mereoleona Vermillion', 10, 'Caxias do Sul'),
+    (11, 'Juvia Lockser', 11, 'Rio Grande do Sul'),
+    (12, 'Gajeel Redfox', 1, 'São Paulo'),
+    (13, 'Pantherlily', 2, 'Guarulhos'),
+    (14, 'Levi', 3, 'Santo Amaro'),
+    (15, 'Hange Zoë', 4, 'Curitiba'),
+    (16, 'Armin Arlert', 5, 'Londrina'),
+    (17, 'Sasha Braus', 6, 'Maringá'),
+    (18, 'Jean Kirstein', 7, 'Joinville'),
+    (19, 'Conny Springer', 8, 'Canoas'),
+    (20, 'Historia Reiss', 9, 'Gramado'),
+    (21, 'Ymir', 10, 'Caxias do Sul'),
+    (22, 'Reiner Braun', 11, 'Rio Grande do Sul'),
+    (23, 'Bertolt Hoover', 1, 'São Paulo'),
+    (24, 'Annie Leonhart', 2, 'Guarulhos'),
+    (25, 'Rukia Kuchiki', 3, 'Santo Amaro'),
+    (26, 'Renji Abarai', 4, 'Curitiba'),
+    (27, 'Toshiro Hitsugaya', 5, 'Londrina'),
+    (28, 'Soifon', 6, 'Maringá'),
+    (29, 'Byakuya Kuchiki', 7, 'Joinville'),
+    (30, 'Kenpachi Zaraki', 8, 'Canoas'),
+    (31, 'Momo Hinamori', 9, 'Gramado'),
+    (32, 'Orihime Inoue', 10, 'Caxias do Sul'),
+    (33, 'Yasutora Sado', 11, 'Rio Grande do Sul'),
+    (34, 'Ichinose Mika', 1, 'São Paulo'),
+    (35, 'Lisbeth', 2, 'Guarulhos'),
+    (36, 'Silica', 3, 'Santo Amaro'),
+    (37, 'Klein', 4, 'Curitiba'),
+    (38, 'Agil', 5, 'Londrina'),
+    (39, 'Premo', 6, 'Maringá'),
+    (40, 'Sinon', 7, 'Joinville'),
+    (41, 'Kirito', 8, 'Canoas'),
+    (42, 'Asuna Yuuki', 9, 'Gramado'),
+    (43, 'Yuuki Konno', 10, 'Caxias do Sul'),
+    (44, 'Eugeo', 11, 'Rio Grande do Sul'),
+    (45, 'Alice Zuberg', 1, 'São Paulo'),
+    (46, 'Kusuo Saiki', 2, 'Guarulhos'),
+    (47, 'Nendou Riki', 3, 'Santo Amaro'),
+    (48, 'Aren Kuboyasu', 4, 'Curitiba'),
+    (49, 'Toritsuka Reita', 5, 'Londrina'),
+    (50, 'Hairo Kineshi', 6, 'Maringá');
+
+
+
 CREATE TABLE consultor (
 	id_consultor INT,
 	nome_consultor VARCHAR (100),
