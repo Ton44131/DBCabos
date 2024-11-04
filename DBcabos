@@ -69,18 +69,15 @@ CREATE TABLE consultor (
 	nome_cidade VARCHAR (50)
 )
 
-INSERT INTO Consultores (id_consultor, nome_consultor, genero_consultor, nome_cidade)
+INSERT INTO consultor (id_consultor, nome_consultor, genero_consultor, id_cidade)
 VALUES
-    (1, 'Kusuri', 'Feminino', 'São Paulo'),
-    (2, 'Jotaro Kujo', 'Masculino', 'Guarulhos'),
-    (3, 'Luffy', 'Masculino', 'Santo Amaro'),
-    (4, 'Kazuma Satou', 'Masculino', 'Curitiba'),
-    (5, 'Miku Hatsune', 'Feminino', 'Londrina'),
-    (6, 'Artoria Pendragon', 'Feminino', 'Maringá'),
-    (7, 'Saitama', 'Masculino', 'Joinville'),
-    (8, 'Kirito', 'Masculino', 'Canoas'),
-    (9, 'Jack-Chan', 'Masculino', 'Gramado'),
-    (10, 'Aizawa', 'Masculino', 'Caxias do Sul'),
-    (11, 'Aizen Sosuke', 'Masculino', 'Rio Grande do Sul'),
-    (12, 'Fuu', 'Feminino', 'São Paulo'),
-    (13, 'Nao Fumi', 'Masculino', 'Guarulhos')
+    (1, 'Kusuri', 'Feminino', 1),
+    (2, 'Jotaro Kujo', 'Masculino', 2),
+    (3, 'Luffy', 'Masculino', 3),
+    (4, 'Kazuma Satou', 'Masculino', 4),
+    (5, 'Miku Hatsune', 'Feminino', 5),
+    (6, 'Artoria Pendragon', 'Feminino', 6),
+    (7, 'Saitama', 'Masculino', 7),
+    (8, 'Kirito', 'Masculino', 8,
+    (9, 'Jack-Chan', 'Masculino', 9),
+    (10, 'Aizawa', 'Masculino', 10)
