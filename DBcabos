@@ -66,5 +66,5 @@ CREATE TABLE consultor (
 	id_consultor INT,
 	nome_consultor VARCHAR (100),
 	genero_consultor VARCHAR (10),
-	nome_cidade VARCHAR (
+	nome_cidade VARCHAR (50)
 )
