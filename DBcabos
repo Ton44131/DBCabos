@@ -10,3 +10,6 @@ CREATE TABLE cliente (
 
 
 )
+CREATE TABLE consultor (
+	id_consultor 
+)
