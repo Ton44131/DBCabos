@@ -1,0 +1,11 @@
+CREATE DATABASE DBcabos
+
+USE DBcabos
+
+CREATE TABLE cliente (
+	id_cliente INT,
+
+
+
+
+)
