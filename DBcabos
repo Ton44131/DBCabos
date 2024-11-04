@@ -83,4 +83,4 @@ VALUES
     (10, 'Aizawa', 'Masculino', 'Caxias do Sul'),
     (11, 'Aizen Sosuke', 'Masculino', 'Rio Grande do Sul'),
     (12, 'Fuu', 'Feminino', 'São Paulo'),
-    (13, 'Nao Fumi', 'Masculino', 'Guarulhos');
+    (13, 'Nao Fumi', 'Masculino', 'Guarulhos')
